@@ -20,8 +20,14 @@ export const metadata: Metadata = {
 		images: [
 			{
 				url: "/og.png",
-				width: 1200,
-				height: 630,
+				width: 1920,
+				height: 1080,
+			},
+			{
+				url: "/og-alt.png",
+				width: 800,
+				height: 283,
+				alt: 'Alternate og image'
 			},
 		],
 		locale: "en-US",
