@@ -9,16 +9,17 @@ export const metadata: Metadata = {
 		default: "Silvered Soul",
 		template: "%s | Silvered Soul",
 	},
+	metadataBase: new URL('https://silveredsoul.pages.dev'),
 	description: "Software developer with various skills",
 	openGraph: {
 		title: "Silvered Soul",
 		description:
 			"Software developer with various skills",
-		url: "silveredsoul.pages.dev",
+		url: "https://silveredsoul.pages.dev",
 		siteName: "Silvered Soul",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://silveredsoul.pages.dev/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Silvered Soul",
 		card: "summary_large_image",
 	},
 	icons: {
