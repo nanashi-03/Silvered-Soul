@@ -9,17 +9,17 @@ export const metadata: Metadata = {
 		default: "Silvered Soul",
 		template: "%s | Silvered Soul",
 	},
-	metadataBase: new URL('https://silveredsoul.pages.dev'),
+	metadataBase: new URL('https://silvered-soul.vercel.app'),
 	description: "Software developer with various skills",
 	openGraph: {
 		title: "Silvered Soul",
 		description:
 			"Software developer with various skills",
-		url: "https://silveredsoul.pages.dev",
+		url: "https://silvered-soul.vercel.app",
 		siteName: "Silvered Soul",
 		images: [
 			{
-				url: "https://silveredsoul.pages.dev/og.png",
+				url: "/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -45,6 +45,7 @@ export const metadata: Metadata = {
 	icons: {
 		icon: "/favicon.png",
 	},
+	themeColor: "black",
 };
 const inter = Inter({
 	subsets: ["latin"],
