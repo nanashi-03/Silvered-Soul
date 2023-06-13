@@ -15,7 +15,6 @@ export default function ProjectsPage() {
 				console.error(error);
 			} else {
 				setProjects(data);
-				console.log(Projects)
 			}
 		}
 
